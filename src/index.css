@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-dashboard{
+  display: flex;
+  
+}
+
+.container-popup{
+  position: relative;
+}
+
+.container-stl1 {
+  border: 1px solid gray;
+  padding: 1em;
+  margin: 5px 10px;
+  width: 400px;
+}
+
+.container-stl2 {
+  border: 1px solid gray;
+  margin: 5px 10px;
+  height: calc(100vh - 100px);
+  /* width: 800px; */
+}
+.container-mngr-diagram{
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  gap: 5px;
+}
+
+.container-mngr-diagram fieldset{
+  border: 0;
+}
+
+.container-mngr-diagram button,
+.container-mngr-diagram fieldset{
+  margin: 4px;
+}
+.container-stl2 button {
+  font-size: 12px;
+  padding: 4px;
+}
+.container-stl2 label {
+  font-size: 12px;
+  padding: 4px;
+}
+.container-mngr-save{
+  text-align: left;
+}
+#svg_wrapper{
+  position: relative;
+}
+.container-stl2 input[type='text'] {
+  font-size: 12px;
+  padding: 4px;
+  width: 100px;
+}
+
+.container-stl2 svg {
+  position: absolute;
+  left: 0;
+}
+
+.show{
+  display: block;
+  background-color: gray;
+  position: absolute;
+}
+
+.hidden{
+  display: none;
+}
+
+.times{
+  font-size: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.times button{
+  margin-top: .1rem;
+  font-size: 0.9rem;
+  padding: 0.2rem;
+}
+
+.hovering{
+  fill: #f00;
+}
